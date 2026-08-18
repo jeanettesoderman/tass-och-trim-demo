@@ -1,0 +1,1 @@
+Lägg kundens egna hundbilder här och byt sökvägarna i config.js.
