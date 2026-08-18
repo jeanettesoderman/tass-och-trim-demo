@@ -37,7 +37,7 @@ window.SITE_CONFIG = {
     gallery1: "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=1000&q=85",
     gallery2: "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=1000&q=85",
     gallery3: "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=1000&q=85",
-    gallery4: "https://images.unsplash.com/photo-1558944351-cb1f7b6d42fe?auto=format&fit=crop&w=1000&q=85",
+    gallery4: "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1000&q=85",
     gallery5: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1000&q=85",
     gallery6: "https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?auto=format&fit=crop&w=1000&q=85"
   },

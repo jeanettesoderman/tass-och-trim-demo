@@ -142,3 +142,45 @@ input:focus,textarea:focus,select:focus{border-color:#93ab8d}
 .about-small{right:0}
 .footer-bottom{flex-direction:column;gap:8px}
 }
+
+
+/* Multilingual selector */
+.language-select-wrap{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  position:relative;
+  z-index:25;
+}
+.language-select{
+  border:0;
+  border-bottom:1px solid rgba(80,80,80,.28);
+  background:transparent;
+  color:inherit;
+  font:600 11px/1.2 Arial,Helvetica,sans-serif;
+  padding:6px 22px 6px 5px;
+  cursor:pointer;
+}
+@media(min-width:901px){
+  .nav-wrap{
+    display:flex;
+    align-items:center;
+    gap:26px;
+  }
+  .main-nav{
+    margin-left:auto;
+  }
+  .language-select-wrap{
+    margin-left:16px;
+  }
+}
+@media(max-width:900px){
+  .language-select-wrap{
+    margin-left:auto;
+    margin-right:8px;
+  }
+  .language-select{
+    max-width:118px;
+    font-size:10px;
+  }
+}

@@ -38,7 +38,7 @@ function renderServices() {
       <div class="service-content">
         <h3>${s.name}</h3>
         <p>${s.description}</p>
-        <a class="service-link" href="#boka">Boka behandling</a>
+        <a class="service-link" href="#boka">${window.TASS_TR ? window.TASS_TR("Boka behandling") : "Boka behandling"}</a>
       </div>
     </article>
   `).join("");
@@ -57,7 +57,7 @@ function renderPricing() {
   const grid = document.getElementById("pricing-grid");
   grid.innerHTML = c.pricing.map(p => `
     <article class="price-card ${p.featured ? "featured" : ""}">
-      ${p.featured ? '<span class="price-badge">POPULÄR</span>' : ""}
+      ${p.featured ? `<span class="price-badge">${window.TASS_TR ? window.TASS_TR("POPULÄR") : "POPULÄR"}</span>` : ""}
       <h3>${p.name}</h3>
       <p class="price-sub">${p.subtitle}</p>
       <strong class="price-amount">${p.price}</strong>
@@ -89,7 +89,7 @@ form.addEventListener("submit", e => {
 
   e.preventDefault();
   document.getElementById("form-status").textContent =
-    "Demoformulär. Här kopplas kundens bokningsformulär eller formulärtjänst in.";
+    (window.TASS_TR ? window.TASS_TR("Demoformulär. Här kopplas kundens bokningsformulär eller formulärtjänst in.") : "Demoformulär. Här kopplas kundens bokningsformulär eller formulärtjänst in.");
   form.reset();
 });
 
